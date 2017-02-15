@@ -19,8 +19,6 @@ for a in range(gf103.p):
            orders.append(order)
            points.append((a, b))
 
-print(max(orders))
-
 for i in range(10):
     maximum = max(orders)
     maximums_index = orders.index(maximum)
